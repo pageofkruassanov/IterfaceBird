@@ -1,13 +1,9 @@
 #include "Penguin.h"
 
-bool Penguin::Fly()
-{
-    return false;
-}
 
-bool Penguin::Swim()
+void Penguin::Swim()
 {
-    return true;
+    std::cout << "Penguin swims" << std::endl;
 }
 
 void Penguin::Go()

@@ -4,8 +4,7 @@
 class Parrot : public IBird
 {
 public:
-	bool Fly() override;
-	bool Swim() override;
+	void Fly();
 	void Go() override;
 	void Eat() override;
 	void Sound() override;

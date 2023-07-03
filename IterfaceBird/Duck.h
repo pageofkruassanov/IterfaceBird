@@ -1,11 +1,11 @@
 #pragma once
 #include "IBird.h"
 #include <iostream>
-class Duck : IBird
+class Duck : public IBird
 {
 public:
-	bool Fly() override;
-	bool Swim() override;
+	void Fly();
+	void Swim();
 	void Go() override;
 	void Eat() override;
 	void Sound() override;

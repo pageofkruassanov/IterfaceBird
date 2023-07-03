@@ -12,9 +12,7 @@ int main()
     Penguin penguin;
     Parrot parrot;
     Chicken chicken;
-    cout << "Does the chicken fly? - " << boolalpha << chicken.Fly() << endl;
-    cout << "Does the penguin fly? - " << boolalpha << penguin.Fly() << endl;
-    cout << "Does the duck fly? - " << boolalpha << duck.Fly() << endl;
-    cout << "Does the parrot fly? - " << boolalpha << parrot.Fly() << endl;
+    duck.Fly();
+    chicken.Sound() // only eat, go and sound
     
 }

@@ -1,13 +1,13 @@
 #include "Duck.h"
 
-bool Duck::Fly()
+void Duck::Fly()
 {
-    return true;
+    std::cout << "Duck flying" << std::endl;
 }
 
-bool Duck::Swim()
+void Duck::Swim()
 {
-    return true;
+    std::cout << "Parrot swims" << std::endl;
 }
 
 void Duck::Go()

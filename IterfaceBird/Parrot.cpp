@@ -1,14 +1,10 @@
 #include "Parrot.h"
 
-bool Parrot::Fly()
+void Parrot::Fly()
 {
-    return true;
+    std::cout << "Parrot flying" << std::endl;
 }
 
-bool Parrot::Swim()
-{
-    return false;
-}
 
 void Parrot::Go()
 {
